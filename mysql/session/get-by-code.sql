@@ -1,0 +1,11 @@
+SELECT
+    `sessionId`,
+    `sessionCode`,
+    `sessionFingerprint`,
+    `sessionCreated`,
+    `sessionActivity`,
+    `sessionData`
+FROM
+    `session`
+WHERE
+    `sessionCode`=:sessionCode

@@ -1,0 +1,10 @@
+UPDATE
+    `session`
+SET
+    `sessionCode`=:sessionCode,
+    `sessionFingerprint`=:sessionFingerprint,
+    `sessionCreated`=:sessionCreated,
+    `sessionActivity`=:sessionActivity,
+    `sessionData`=:sessionData
+WHERE
+    `sessionId`=:sessionId

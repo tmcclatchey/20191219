@@ -1,0 +1,9 @@
+UPDATE
+    `role`
+SET
+    `roleName`=:roleName,
+    `roleDescription`=:roleDescription,
+    `roleFlags`=:roleFlags,
+    `providerId`=:providerId
+WHERE
+    `roleId`=:roleId

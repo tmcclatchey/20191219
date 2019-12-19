@@ -1,0 +1,22 @@
+SELECT
+    `userId`,
+    `userLogin`,
+    `userName`,
+    `userHash`,
+    `userHashUpdated`,
+    `userEmail`,
+    `userEmailUpdated`,
+    `userEmailConfirmed`,
+    `userMobile`,
+    `userMobileUpdated`,
+    `userMobileFonfirmed`,
+    `roleId`,
+    `managerId`
+FROM 
+    `user`
+WHERE
+    (
+        `roleId`=:roleId
+    )
+LIMIT
+    :startingIndex, :recordLimit

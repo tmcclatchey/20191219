@@ -1,0 +1,31 @@
+INSERT INTO
+    `user`
+(
+    `userLogin`,
+    `userName`,
+    `userHash`,
+    `userHashUpdated`,
+    `userEmail`,
+    `userEmailUpdated`,
+    `userEmailConfirmed`,
+    `userMobile`,
+    `userMobileUpdated`,
+    `userMobileFonfirmed`,
+    `roleId`,
+    `managerId`
+)
+VALUES
+(
+    :userLogin,
+    :userName,
+    :userHash,
+    :userHashUpdated,
+    :userEmail,
+    :userEmailUpdated,
+    :userEmailConfirmed,
+    :userMobile,
+    :userMobileUpdated,
+    :userMobileFonfirmed,
+    :roleId,
+    :managerId
+)

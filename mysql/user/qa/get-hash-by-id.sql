@@ -1,0 +1,6 @@
+SELECT
+    `qaHash`,
+FROM
+    `user_qa`
+WHERE
+    `qaId`=:qaId

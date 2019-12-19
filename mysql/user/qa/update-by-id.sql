@@ -1,0 +1,10 @@
+UPDATE
+    `user_qa`
+SET
+    `qaQuestion`=:qaQuestion,
+    `qaHash`=:qaHash,
+    `qaAdded`=:qaAdded,
+    `qaUpdated`=:qaUpdated,
+    `userId`=:userId
+WHERE
+    `qaId`=:qaId
