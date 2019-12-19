@@ -1,0 +1,19 @@
+INSERT INTO
+    `audit`
+(
+    `auditAction`,
+    `auditStamp`,
+    `auditSource`,
+    `recordId`,
+    `userId`,
+    `providerId`
+)
+VALUES
+(
+    :auditAction,
+    :auditStamp,
+    :auditSource,
+    :recordId,
+    :userId,
+    :providerId
+)

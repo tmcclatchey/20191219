@@ -1,0 +1,11 @@
+UPDATE
+    `audit`
+SET
+    `auditAction`=:auditAction,
+    `auditStamp`=:auditStamp,
+    `auditSource`=:auditSource,
+    `recordId`=:recordId,
+    `userId`=:userId,
+    `providerId`=:providerId
+WHERE
+    `auditId`=:auditId

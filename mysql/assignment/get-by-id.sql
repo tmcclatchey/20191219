@@ -1,0 +1,9 @@
+SELECT 
+    `assignmentId`,
+    `userId`,
+    `providerId`,
+    `roleId`
+FROM
+    `assignment`
+WHERE
+    `assignmentId`=:assignmentId
